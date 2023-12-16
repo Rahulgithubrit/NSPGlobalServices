@@ -1,0 +1,113 @@
+.container {
+    width: 100%;
+    /* top: -40px; */
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    background: transparent;
+    backdrop-filter: blur(12px);
+}
+
+.containerdiv {
+    height: 400px;
+    width: 422px;
+    margin-top: 40px;
+    position: absolute;
+    left: 549px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    z-index: 5;
+    background-color: white;
+}
+
+.title {
+    top: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.titlebtn {
+    width: 30px;
+    height: 30px;
+    color: red;
+    font-size: 20px;
+}
+
+.titlebtn:hover {
+    cursor: pointer;
+}
+
+.inputs {
+    height: 45px;
+    width: 363px;
+    border-radius: 12px;
+}
+
+.formdiv {
+    display: flex;
+    top: 61px;
+    position: relative;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_1_ptag {
+    color: white;
+    text-decoration: none;
+    border-color: #4526b1;
+    background: #4526b1;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border: 0px;
+    border-radius: 27px;
+    padding: 20px 45px;
+    line-height: 1;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    width: 132px;
+}
+
+.container_1_ptag:hover {
+    background: linear-gradient(135deg, #7153d9 0%, #5435be 45%, #4526b1 66%);
+    cursor: pointer;
+}
+
+.text {
+    margin-left: 25px;
+    font-size: 27px;
+}
+
+@media(max-width:768px) and (min-width:430px) {
+   
+}
+
+@media(max-width:380px) {
+   
+}
+
+@media(max-width:426px) {
+    .containerdiv {
+        height: 374px;
+        width: 384px;
+        margin-top: 40px;
+        position: absolute;
+        left: 9px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        z-index: 5;
+        background-color: white;
+    }
+}

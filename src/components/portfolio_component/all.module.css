@@ -1,0 +1,69 @@
+.container1{
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 31px;
+    position: relative;
+    left: 62px;
+    width: 1350px;
+}
+.div1{
+    background-color: #5435be;
+    border-radius: 20px;
+}
+.img1:hover{
+    mix-blend-mode: soft-light;
+    cursor: pointer;
+    opacity: 1;
+    color: #5435be;
+}
+.div2{
+    background-color: #5435be;
+    border-radius: 20px;
+}
+.img2:hover{
+    mix-blend-mode: soft-light;
+    cursor: pointer;
+    opacity: 1;
+    color: #5435be;
+}
+.div3{
+    background-color: #5435be;
+    border-radius: 20px;
+}
+.img3:hover{
+    mix-blend-mode: soft-light;
+    cursor: pointer;
+    opacity: 1;
+    color: #5435be;
+}
+.div4{
+    background-color: #5435be;
+    border-radius: 20px;
+}
+.img4:hover{
+    mix-blend-mode: soft-light;
+    cursor: pointer;
+    opacity: 1;
+    color: #5435be;
+}
+.div5{
+    background-color: #5435be;
+    border-radius: 20px;
+}
+.img5:hover{
+    mix-blend-mode: soft-light;
+    cursor: pointer;
+    opacity: 1;
+    color: #5435be;
+}
+.div6{
+    background-color: #5435be;
+    border-radius: 20px;
+}
+.img6:hover{
+    mix-blend-mode: soft-light;
+    cursor: pointer;
+    opacity: 1;
+    color: #5435be;
+}

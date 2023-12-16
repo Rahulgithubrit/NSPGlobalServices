@@ -1,0 +1,49 @@
+.toolsname_div{
+    overflow: hidden;
+}
+.toolsname_ul{
+    display: flex;
+    flex-direction: row;
+    width: 2904px;
+    grid-gap: 20px;
+    animation: righttoleft 30s infinite linear;
+}
+@keyframes righttoleft{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+.toolsname_li{
+    width: 194px;
+    border: solid 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.toolsname_di1{
+    overflow: hidden;
+}
+.toolsname_u1{
+    display: flex;
+    flex-direction: row;
+    width: 2904px;
+    grid-gap: 20px;
+    animation: lefttoright 30s infinite linear;
+}
+.toolsname_li1{
+    width: 194px;
+    border: solid 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+@keyframes lefttoright{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}

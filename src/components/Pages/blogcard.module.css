@@ -1,0 +1,37 @@
+.container1{
+    width: 426px;
+    overflow: hidden;
+    box-shadow: 10px 0px 49px rgba(25, 7, 89, 0.08);
+    border-radius: 20px 20px 20px 20px;
+}
+.container_title{
+    padding: 20px 40px;
+}
+.container_ptag{
+    margin: 0px;
+    color: #7153d9;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.blogcard_img{
+    width: 430px;
+}
+.link{
+    text-decoration: none;
+    position: relative;
+    top: 6px;
+    font-size: 20px;
+}
+.link:hover{
+    color:#7153d9 ;
+}
+@media (max-width:426px) {
+    .container1{
+        width: 385px;
+        overflow: hidden;
+        box-shadow: 10px 0px 49px rgba(25, 7, 89, 0.08);
+        border-radius: 20px 20px 20px 20px;
+    }
+}

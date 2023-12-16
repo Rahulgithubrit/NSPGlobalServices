@@ -1,0 +1,140 @@
+.container1 {
+
+    margin: 0;
+    height: 666px;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: #e9edf4 */
+}
+
+.img2 {
+    margin-top: -147px;
+    margin-left: 746px;
+    transition-duration: 5s;
+    transition-delay: 2s;
+
+}
+
+.img3 {
+    margin-left: 1139px;
+    margin-top: -486px;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+
+.img4 {
+    margin-top: 638px;
+    height: 0px;
+    margin-left: -1240px;
+    transform: rotate(90deg);
+    -webkit-animation: moveupdown 2s infinite alternate;
+    animation: moveupdown 2s infinite alternate;
+}
+
+.img5 {
+    margin-top: -1403px;
+    margin-left: 1202px;
+    -webkit-animation: moveupdown 2s infinite alternate;
+    animation: moveupdown 2s infinite alternate;
+}
+
+.img5:hover {
+    translate: 20px;
+    transition-duration: 2s;
+}
+
+.img4:hover {
+    translate: 20px;
+    transition-duration: 2s;
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+    font-size: 70px;
+    margin-top: -375px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    padding-left: 419px;
+    text-align: center;
+    margin-top: -31px;
+    font-size: 24px;
+    width: 655px;
+    opacity: .7;
+}
+
+/*  */
+.container2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 35px;
+    margin-top: 40px;
+    margin-bottom: 66px;
+    left: 37px;
+    width: 97%;
+}
+
+.blog {
+    width: 427px;
+}
+
+@media(max-width:768px) and (min-width:430px) {
+    .container1 {
+
+        margin: 0;
+        height: 666px;
+        width: 73rem;
+        overflow: hidden;
+        /* background-color: #e9edf4 */
+    }
+
+    .container2 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 5rem;
+        margin-top: 103px;
+        margin-bottom: 66px;
+        left: 0px;
+        width: 73rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width:426px) {
+    .container1 {
+        margin: 0;
+        height: 502px;
+        width: 26rem;
+        overflow: hidden;
+        /* background-color: #e9edf4 */
+    }
+    .title {
+        position: relative;
+        z-index: 2;
+        font-size: 56px;
+        margin-top: -277px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container2 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 5rem;
+        margin-top: 103px;
+        margin-bottom: 66px;
+        left: 0;
+        width: 26rem;
+        justify-content: center;
+    }
+}

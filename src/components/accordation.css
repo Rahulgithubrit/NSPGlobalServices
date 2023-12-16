@@ -1,0 +1,32 @@
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display:flex;
+    align-items:center;
+    font-size: 29px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#accordion label + input[type='radio']{
+    display: none;
+}
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion label + input[type='radio']:checked + .content{
+max-height: 400px;
+}
+.p_tag{
+    opacity: .7;
+    padding-left: 40px;
+}

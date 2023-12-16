@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+   scroll-behavior:smooth;
+}
+.logo{
+    height: 93px;
+}
+.container{
+    position: relative;
+    right: 1976px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    transition: all 0.15s linear;
+    top: 117px;
+}
+.container1{
+    position: relative;
+    right: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    transition: all 0.15s linear;
+    top: 129px;
+}
