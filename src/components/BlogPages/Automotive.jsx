@@ -18,9 +18,6 @@ import BannerImage from '../assets/Automotive/20230726_200021_0001.png'
 import { Helmet } from 'react-helmet';
 
 export default function Automotive(props) {
-  useEffect(function () {
-    AOS.init({ duration: 2000 });
-  }, []);
   return (
 
     <>
